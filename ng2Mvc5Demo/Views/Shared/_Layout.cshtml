@@ -8,16 +8,16 @@
     <!-- 1. Load libraries -->
     <!-- Polyfill(s) for older browsers -->
 
-    <script src="~/libs/core-js/client/shim.min.js"></script>
-    <script src="~/libs/zone.js/dist/zone.js"></script>    
-    <script src="~/libs/systemjs/dist/system.src.js"></script>
+    <script src="/ng2/libs/core-js/client/shim.min.js"></script>
+    <script src="/ng2/libs/zone.js/dist/zone.js"></script>    
+    <script src="/ng2/libs/systemjs/dist/system.src.js"></script>
 
     <!-- 2. Configure SystemJS -->
     
-    <script src="~/Scripts/systemjs.config.js"></script>
+    <script src="/ng2/Scripts/systemjs.config.js"></script>
     
     <script>
-        System.import('../Scripts/main.js').catch(function (err)
+        System.import('/ng2/Scripts/main.js').catch(function (err)
         {
             console.error(err);
         });
