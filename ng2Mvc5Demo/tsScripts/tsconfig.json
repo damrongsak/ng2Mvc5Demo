@@ -5,7 +5,7 @@
     "module": "commonjs",
     "noEmitOnError": true,
     "noImplicitAny": false,
-    "outDir": "../Scripts/",
+    "outDir": "/ng2/Scripts/",
     "removeComments": false,
     "sourceMap": true,
     "target": "es5",
